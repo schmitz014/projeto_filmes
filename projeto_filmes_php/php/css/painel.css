@@ -1,0 +1,64 @@
+body{
+    color:#ffffff;
+    margin:0;
+    background-color: #330000;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.all-header{
+    background-color: #000000;
+    overflow: hidden;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.all-header p{
+  float: left;
+  padding: 0px 16px;
+  text-align: center;
+  font-size: 22px;
+}
+
+
+.all-header a {
+    float: right;
+    color:#ffffff;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .all-header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.all-header a.activo {
+    background-color: #330000;
+    color: white;
+  }
+
+  
+  footer{
+    position: absolute;
+    margin-top:10%;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+
+.desc-footer{
+  padding:25px;
+}
+
+footer img{
+  border-radius: 10px;
+  float: left;
+  padding: 10px 16px;
+  width: 100px;
+}
+
+#autor{
+    color:#ffffff;
+}

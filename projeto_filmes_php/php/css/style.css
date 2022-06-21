@@ -1,0 +1,97 @@
+body{
+    color:#ffffff;
+    margin:0;
+    background-color: #330000;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.all-header{
+    background-color: #000000;
+    overflow: hidden;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.all-header p{
+  float: left;
+  padding: 0px 16px;
+  text-align: center;
+  font-size: 22px;
+}
+
+
+.all-header a {
+    float: right;
+    color:#ffffff;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+.all-header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.all-header a.activo {
+    background-color: #330000;
+    color: white;
+  }
+
+  #cabecalho{
+    text-align: center;
+  }
+  
+  .gallery {
+    float:left;
+    margin-left: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 180px;
+  }
+  
+  .gallery:hover {
+    border: 1px solid rgb(142, 13, 13);
+    border-radius: 10px;
+    color:rgb(142, 13, 13);
+  }
+  
+  .gallery img {
+    width: 180px;
+    height: 360px;
+  }
+  
+  .desc {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .gallery img:hover {
+    border-radius: 10px;
+  }
+
+
+footer{
+    position: absolute;
+    margin-top:100%;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+
+.desc-footer{
+  padding:25px;
+}
+
+footer img{
+  border-radius: 10px;
+  float: left;
+  padding: 10px 16px;
+  width: 100px;
+}
+
+#autor{
+  color:#ffffff;
+}
+
+
